@@ -1,0 +1,77 @@
+<!DOCtype html>
+<html>
+    <head>
+        <title>Train Management</title>
+   
+        <link href="./form.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+    </head>
+
+    <body>
+
+            
+                    
+        <table class = "all-info">
+            <tr class = "table-headers">
+                <th>Train Name</th>
+                <th>Destination</th> 
+                <th>First Train</th>
+                <th>Frequency(mins)</th>
+                <th>Next Arrival</th>
+                <th>Minutes Away</th>
+            </tr>
+            <tr>
+                <td class = "train-name"></td>
+                <td class = "train-destination"></td>
+                <td class = "train-first"></td>
+                <td class = "train-freq"></td>
+                <td class = "train-next"></td>
+                <td class = "train-away"></td>
+            </tr>
+                  
+        </table>
+
+        <form>
+            <span class = "name-box">Train Name : </span>
+            <br>
+            <input class = "name" type = "text"> 
+            <br>
+            <span class = "destination-box">Destination :</span>
+            <br>
+            <input class = "destination" type = "text"> 
+            <br>
+            <span class = "first-box">Time of First train (military time):</span> 
+            <br>
+            <input class = "first" type = "text"> 
+            <br>
+            <span class = "freq-box">Frequency (mins) :</span> 
+            <br>
+            <input class = "freq" type = "text"> 
+            <br>
+            <input class = "submit-button" value = "Send" type = "submit"> 
+        </form>
+    
+        <script type = "text/javascript" src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+     
+<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAX56BeA8lI90bac3QlBH60BqJghmQ4QAw",
+    authDomain: "kupelian-firebase-0.firebaseapp.com",
+    databaseURL: "https://kupelian-firebase-0.firebaseio.com",
+    projectId: "kupelian-firebase-0",
+    storageBucket: "kupelian-firebase-0.appspot.com",
+    messagingSenderId: "618397320650"
+  };
+  firebase.initializeApp(config);
+</script>
+        
+        
+        <script type = "text/javascript" src = "./form.js"></script>
+   
+    </body>
+</html>
