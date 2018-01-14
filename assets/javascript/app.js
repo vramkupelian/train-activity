@@ -1,6 +1,5 @@
 var db = firebase.database();
 
-
 $(".submit-button").on("click", function(event){
         //prevents refresh on form submission
         event.preventDefault();

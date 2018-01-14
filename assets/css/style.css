@@ -1,0 +1,35 @@
+.all-info{
+    margin: auto;
+    margin-top: 45px;
+    border: 3px double navy;
+    background-color: white;
+    max-width: 100%;
+}
+
+th{
+    padding:15px;
+    max-width: 100%;
+}
+
+.form-div{
+    margin:auto;
+    margin-top: 25px;
+    border: 1px solid navy;
+    width: fit-content;
+    padding:15px;
+    background-color: white;
+    max-width: 100%;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+span, input, th{
+    color: navy;
+}
+
+body{
+    background-image: url(../images/train.jpg);
+    background-size: 100%;
+}
