@@ -11,6 +11,9 @@ th{
     max-width: 100%;
 }
 
+tr{
+    text-align: center;
+}
 .form-div{
     margin:auto;
     margin-top: 25px;
